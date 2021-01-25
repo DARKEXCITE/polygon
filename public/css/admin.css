@@ -1,0 +1,63 @@
+/*
+
+    Список категорий
+
+*/
+
+.categories-list__item {
+    display: grid;
+    grid-template-columns: 5% 85% 10%;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.categories-list__header {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cecece;
+}
+
+.categories-list__item > div,
+.categories-list__item h3 {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: normal;
+    margin: 0;
+}
+
+.categories-list__header > div {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*
+
+    Список постов
+
+*/
+
+.posts-table__item {
+    display: grid;
+    grid-template-columns: 5% 40% 20% 15% 20%;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.posts-table__header {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cecece;
+}
+
+.posts-table__item > div,
+.posts-table__item h3 {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: normal;
+    margin: 0;
+}
+
+.posts-table__header > div {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
